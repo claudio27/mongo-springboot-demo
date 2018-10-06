@@ -1,0 +1,9 @@
+spring:
+  data:
+    mongodb:
+      username: claudio-admin
+
+spring:
+  data:
+    mongodb:
+      password: q1w2e3
