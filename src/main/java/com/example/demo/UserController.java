@@ -41,4 +41,9 @@ public class UserController {
     public void deleteUser(@PathVariable ObjectId id) {
         repository.delete(repository.findById(id));
     }
+
+    @RequestMapping(value = "/info", method = RequestMethod.GET)
+    public String getInfo(@PathVariable ObjectId id) {
+        return "Este es un mensaje de informacion generica";
+    }
 }
